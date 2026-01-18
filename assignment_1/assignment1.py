@@ -17,7 +17,9 @@ n = 0
 if len(name_data) != 1:
     n = int(input("Multiple entries found for the name. \nEnterwhich entry to use (0 to {}): ".format(len(name_data)-1)))
 
-img_gray = cv2.imread(df[df['Name'] == name]['File'].iloc[n], cv2.IMREAD_GRAYSCALE)
+cpath = 'assignment_1/'+df[df['Name'] == name]['File'].iloc[n]
+
+img_gray = cv2.imread(cpath, cv2.IMREAD_GRAYSCALE)
 
 img_resized = cv2.resize(img_gray, (105, 105))
 
@@ -25,6 +27,6 @@ img_final = img_resized.astype(np.float32) / 255.0
 
 plt.imshow(img_final, cmap='gray')
 plt.title("Ready for the Network!")
-plt.savefig("final.png")
+plt.savefig("assignment_1/final.png")
 print("Image processing complete and saved as final.png")
 
