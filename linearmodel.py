@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import cv2
-from tensorflow.keras import layers, models
+from tensorflow.keras import layers, models #type:ignore
 import tensorflow as tf
 from sklearn.model_selection import train_test_split
 
