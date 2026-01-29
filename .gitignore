@@ -1,0 +1,9 @@
+*.h5
+*.zip
+*.tar.gz
+*.log
+*.keras
+*.ckpt
+__pycache__/
+./project_actual/checkpoints/
+./project_actual/data/
