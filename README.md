@@ -20,7 +20,7 @@
     **Checkpoints:**
         Model training checkpoints to lod from if there are any problems later
     **Facial erification with a Siamese Neural Network**
-        THIS IS A COPY-PASTE FILES FROM GITHUB USED AS REFERENCE
+        THIS IS A COPY-PASTE FILE FROM GITHUB USED AS REFERENCE
         https://github.com/nicknochnack/FaceRecognition/blob/main/Facial%20Verification%20with%20a%20Siamese%20Network%20-%20Final.ipynb
     **project.ipynb*
         My work as i went through the tutoials
