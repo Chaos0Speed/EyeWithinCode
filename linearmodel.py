@@ -31,4 +31,4 @@ model.fit(x_train, y_train, epochs=10, batch_size=1)
 model.save('model.keras')
 print(model.weights)
 
-exec(open('2test.py').read())
+#exec(open('2test.py').read())

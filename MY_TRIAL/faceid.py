@@ -87,8 +87,8 @@ class FaceIDApp(App):
         t.start()
 
     def verify(self):   
-        detection_threshold = 0.8
-        verification_threshold = 0.8
+        detection_threshold = 0.7
+        verification_threshold = 0.7
         
         # 1. Capture current frame from webcam
         ret, frame = self.capture.read()
